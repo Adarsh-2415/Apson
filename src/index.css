@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-apson-navy: #0B1220;
+  --color-apson-graphite: #1A2433;
+  --color-apson-blue: #2F80ED;
+  --color-apson-blue-hover: #1d6ed8;
+  --color-apson-bg: #F7F8FA;
+  --color-apson-white: #FFFFFF;
+  --color-apson-text-main: #111827;
+  --color-apson-text-sub: #667085;
+  --color-apson-border: #E5E7EB;
+  --color-apson-border-dark: #2A3649;
+
+  --font-manrope: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  font-family: var(--font-inter);
+  background-color: var(--color-apson-bg);
+  color: var(--color-apson-text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
